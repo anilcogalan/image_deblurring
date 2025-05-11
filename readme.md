@@ -1,7 +1,7 @@
 
 # Image Deblurring Application
 
-![Deblurring Example](https://example.com/deblur_example.jpg)
+![Deblurring Example](slide_image_test\ex_of_sliding_blurring_to_deblurring.png)
 
 A Streamlit-based web application for removing blur from images using advanced blind deconvolution techniques combined with ringing artifact removal.
 
@@ -70,35 +70,6 @@ The application will start and open in your default web browser. If not, navigat
 | Lambda L0 | Weight for L0 norm sparsity | 5e-4 | 0-0.01 |
 | Weight Ring | Weight for ringing suppression | 1.0 | 0-10 |
 
-## Examples
-
-### Motion Blur
-<table>
-  <tr>
-    <td>Original (Blurry)</td>
-    <td>Deblurred</td>
-    <td>Estimated Kernel</td>
-  </tr>
-  <tr>
-    <td><img src="https://example.com/motion_blur.jpg" width="250"></td>
-    <td><img src="https://example.com/motion_deblurred.jpg" width="250"></td>
-    <td><img src="https://example.com/motion_kernel.jpg" width="100"></td>
-  </tr>
-</table>
-
-### Out-of-focus Blur
-<table>
-  <tr>
-    <td>Original (Blurry)</td>
-    <td>Deblurred</td>
-    <td>Estimated Kernel</td>
-  </tr>
-  <tr>
-    <td><img src="https://example.com/defocus_blur.jpg" width="250"></td>
-    <td><img src="https://example.com/defocus_deblurred.jpg" width="250"></td>
-    <td><img src="https://example.com/defocus_kernel.jpg" width="100"></td>
-  </tr>
-</table>
 
 ## Performance Metrics
 
