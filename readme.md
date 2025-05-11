@@ -1,7 +1,7 @@
 
 # Image Deblurring Application
 
-![Deblurring Example](slide_image_test\ex_of_sliding_blurring_to_deblurring.png)
+![Deblurring Example](slide_image_test/ex_of_sliding_blurring_to_deblurring.png)
 
 A Streamlit-based web application for removing blur from images using advanced blind deconvolution techniques combined with ringing artifact removal.
 
