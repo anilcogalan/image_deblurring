@@ -206,7 +206,7 @@ def main():
     if uploaded_file:
         # Display the input image
         image = Image.open(uploaded_file)
-        st.image(image, caption="Input (Blurry) Image", use_column_width=True)
+        st.image(image, caption="Input (Blurry) Image", use_container_width=True)
 
         # Save to temp folder
         os.makedirs("temp", exist_ok=True)
@@ -238,12 +238,12 @@ def main():
                     end = time.time()
 
                     # Display interim figure
-                    st.image(fig_buf, caption="Kernel & Interim Result", use_column_width=True)
+                    st.image(fig_buf, caption="Kernel & Interim Result", use_container_width=True)
                     st.success(f"Completed in {(end-start):.2f} seconds")
 
                     # Show deblurred image
                     st.subheader("Deblurred Image")
-                    st.image(latent_img, use_column_width=True)
+                    st.image(latent_img, use_container_width=True)
 
                     # Image comparison slider
                     st.subheader("Image Comparison")

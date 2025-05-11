@@ -1,2 +1,9 @@
 [server]
 fileWatcherType = "none"
+
+[client]
+showErrorDetails = "none"
+
+[global]
+disableWidgetStateDuplicationWarning = false
+
